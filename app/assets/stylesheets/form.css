@@ -1,0 +1,131 @@
+form {
+	
+}
+
+
+fieldset {    
+	margin: 0 0 1.6em 0;        
+	border: none;
+	
+}
+
+fieldset.no-margin {
+	margin-bottom: 0;    
+}
+
+div.field {
+	
+	margin: .8em 0 0 0;        
+}
+
+legend {
+	
+}
+
+label {
+    display: block; 
+
+    margin: 0;
+	margin-bottom: .371em;    
+	
+	font: bold 14px/21px "Futura", "Century Gothic", sans-serif;
+}
+
+label.inline {
+    display: inline; 
+}
+
+label span {
+	color: #666;
+}
+
+input, select, textarea {        
+	padding: 4px 2px;
+
+	font: inherit;    
+}
+
+input[type='text'], 
+input[type='password'], 
+select {    
+	margin-right: .4em;
+}
+
+/*input[type='text'], 
+input[type='password'], 
+*/
+input,
+select, 
+textarea {    
+
+	background: #fff;
+	
+	border: 1px solid #666;
+}
+
+
+textarea {    
+    line-height: 1.6em;
+	width: 90%;
+}
+
+input:focus, 
+select:focus,
+textarea:focus {    
+	background: #fffed9;
+}
+
+input.button {
+	
+	/*font: bold 13px/1.0em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	*/
+	
+	padding: 4px 8px;	
+		
+	color: #fff;	
+	
+	border: 2px solid #666;
+	cursor: pointer;
+	
+	background: #000;
+
+	margin-right: .8em;
+}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+

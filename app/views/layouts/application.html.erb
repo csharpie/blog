@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <title>The Rails Noob</title>
 </head>
 <body>
+	<div id="header" class="container">
+	    <div id="logo">
+	      <%= link_to image_tag('logo.png', :width => '350', :alt => "The Rails Noob"), root_path %>
+	    </div>
 
-<%= yield %>
+	    <ul id="nav" class="clear">
+	      <li><%= link_to 'Home', root_path %></li>
+	      <li><%= link_to 'New Article', new_article_path %></li>
+	    </ul>
+	</div>
 
+	<div id="main" class="container">
+		<%= yield %>
+	</div>
+
+	<div id="footer" class="container clear">
+	    <div class="column span-6">
+	      &nbsp;
+	    </div>
+
+	    <div class="column span-4 last">
+	      <p>
+	           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+	           Nullam sed lectus ut nisi hendrerit congue. 
+	      </p>
+	    </div>
+	</div>
 </body>
 </html>

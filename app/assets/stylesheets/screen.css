@@ -1,0 +1,303 @@
+body {
+	color: #000; 
+	background: #732922 url(/assets/bg-body.png) top left fixed;
+	margin: 3.2em 0 0 0;
+	
+	font: normal 13px/1.6em Constantia, Georgia, "Lucida Bright", "Times New Roman", serif;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	
+	font: bold 14px/21px "Futura", "Century Gothic", sans-serif;
+}
+
+p, dl, ul, ol {
+	margin-bottom: .8em;
+}
+
+p.last,  
+dl.last, 
+ul.last, 
+ol.last {
+	margin-bottom: 0;
+}
+
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+
+caption {
+	text-align: center;	
+	font-style: italic;
+	
+	caption-side: bottom;
+	
+	margin: 0 0 .8em 0;
+}
+
+table th {	
+	font: bold 14px/21px "Futura", "Century Gothic", sans-serif;
+}
+
+table th,
+table td {	
+	
+	padding: 0 2px;
+}
+
+table tr.odd {	
+	background: #eee;
+	background: #FFFED9;
+}
+
+
+table th {
+	font-weight: bold;
+}
+
+table thead tr {
+	
+}
+
+
+
+
+/* ---------------------------------------------------
+=sections
+----------------------------------------------------- */
+
+
+
+#header,
+#main {
+	border: 3.2em solid #fff;
+	
+	background: #fff;
+}
+
+
+
+
+/* ---------------------------------------------------
+=header
+----------------------------------------------------- */
+
+
+#header {
+		
+
+	border-bottom: none;
+
+	background: transparent url(/assets/bg-header.jpg)  left bottom no-repeat;
+	
+}
+
+
+
+#logo  {
+	margin: 1.6em 0 1.6em 0;
+
+}
+
+
+#logo  a {
+	border: none;
+}
+
+
+
+
+
+#nav {
+
+	
+	list-style: none;
+	background: #000;
+}
+	
+#nav li {
+
+	float: left;
+	
+	
+	font: bold 13px/1.6em "Futura", "Century Gothic", sans-serif;
+	
+
+	
+}
+
+#nav a {
+	
+	color: #fff;
+	border: none;
+	
+	padding: .4em .8em;
+		
+	display: block;	
+}
+
+#nav a:hover {
+	
+	color: #6E241D;
+	background: #fff;
+	
+}
+
+
+
+
+
+
+/* ---------------------------------------------------
+=main
+----------------------------------------------------- */
+
+#main {
+	margin-bottom: 3.2em; /* extra margin */
+
+	background: #fff;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+=footer
+----------------------------------------------------- */
+
+
+#footer {
+	color: #bf8984;
+	
+	border-bottom: none;
+}
+
+
+#footer p {
+
+}
+
+
+
+#footer a {
+
+}
+
+#footer a:hover {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*
+
+.feed {
+	text-align: right;
+}
+
+*/
+
+
+
+
+/* ---------------------------------------------------
+=links
+----------------------------------------------------- */
+
+
+a {
+
+	color: #000;
+	text-decoration: none;
+	
+	border-bottom: 2px solid #ccc;
+}
+
+a:visited {	
+	border-bottom-style: dotted;
+}
+
+a:hover {	
+	color: #A1165C;
+	border-bottom-color: #A1165C;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+=article
+----------------------------------------------------- */
+
+.article {
+	margin: 0 0 3.2em 0;
+	
+}
+
+.article h2 {
+	font: bold 24px/42px "Futura", "Century Gothic", sans-serif;
+
+	color: #000;
+				
+	word-spacing: -2px;
+	margin: 0 0 .4333em 0;
+}
+
+
+.article .meta {
+	margin: 0 0 1.6em 0;
+	
+}
+
+
+.article .tools {
+	
+	
+}
+
+/* ---------------------------------------------------
+=comments
+----------------------------------------------------- */
+
+#comments {
+	margin: 0 0 3.2em 0;
+	
+}
+
+
+
+#comments ul {
+	list-style: none;
+	
+	margin: 1.6em 0 0 0;
+}
+
+
+
+#comments li {
+	border-bottom: 1px solid #ccc;
+
+	margin: .8em 0 0 0;
+}
+
+
+
+#add-comment form {
+	margin: 1.6em 0 0 0;
+	
+}
