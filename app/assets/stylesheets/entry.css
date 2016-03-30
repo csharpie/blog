@@ -1,0 +1,112 @@
+h1 {	
+	font: bold 24px/42px "Futura", "Century Gothic", sans-serif;
+    color: #000;
+	padding: 0 0 .433em 0;
+	word-spacing: -2px;
+}
+
+.entry {
+	/*text-align: justify;	
+	*/
+}
+
+.entry h2,
+.entry h3,
+.entry h4,
+.entry h5,
+.entry h6 {
+	font: bold 14px/21px "Futura", "Century Gothic", sans-serif;
+	
+	color: #b37493;	
+	color: #a1165c;
+	
+	text-transform: uppercase;
+	margin: 2.971em 0 .742em 0;
+}
+
+
+/* first  h2 */
+.entry h2:first-child {
+	margin-top: 0;
+}
+	
+.entry h3,
+.entry h4,
+.entry h5,
+.entry h6 {
+	color: #000;	
+	text-transform: none;
+}
+
+
+
+	
+
+.entry p {
+	margin: 0 0 .8em 0;	
+}
+
+
+.entry b,
+.entry strong {
+	font-weight: bold;
+}
+
+
+
+.entry i,
+.entry em {
+	font-style: italic;
+}
+
+
+
+.entry ul,
+.entry ol,
+.entry dl {
+	margin: .8em 0 .8em 1.6em;	
+}
+
+
+.entry dl {
+	margin-left: 0;	
+}
+
+.entry ul {
+	list-style: outside square;
+}
+
+
+.entry ol {
+	list-style: outside lower-alpha;
+}
+
+.entry dt {
+	font-weight: bold;
+}
+
+
+.entry dd {
+	margin: 0 0 0 1.6em;	
+}
+
+
+
+.entry blockquote {
+	margin: .8em 0 .8em 0;	
+	padding: 0 1.6em 0 1.6em;
+	
+	font-style: italic;
+	
+	color: #801349;
+}
+
+
+.entry blockquote p {
+	
+}
+
+
+
+
+
