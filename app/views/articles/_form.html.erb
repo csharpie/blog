@@ -11,7 +11,7 @@
     </div>
   <% end %>
 
-  <% field_set_tag do %>
+  <%= field_set_tag do %>
     <div class="field">
       <%= f.label :title %><br>
       <%= f.text_field :title %>
@@ -29,7 +29,7 @@
       <%= f.check_box :published %>
     </div>
   <% end %>
-  <% field_set_tag do %>
+  <%= field_set_tag do %>
     <%= f.submit :class => "button" %>
   <% end %>
 <% end %>
