@@ -1,0 +1,22 @@
+<p id="notice" style="color: green"><%= notice %></p>
+      <div class="article clear">
+          <h2><%= link_to h(article.title), article %></h2>
+          <div  class="column span-6">      
+              <div class="entry">
+                  <%= simple_format(article.body) %>        
+              </div>
+          </div>
+
+          <div  class="column span-4 last">  
+              <div class="meta">            
+                  <h3>About this article</h3>
+                  <%= publication_status(article) %>
+              </div>
+
+              <div class="tools">            
+                  <h3>Tools</h3>
+                  <%= link_to 'Edit', edit_article_path(article) %> &middot;
+                  <%= link_to 'Destroy', article, :confirm => 'Are you sure?', :method => :delete %>
+              </div>
+          </div>
+      </div>

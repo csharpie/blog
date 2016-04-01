@@ -4,12 +4,23 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
   def index
-    @articles = Article.order(published_at: :desc)
+    @articles = Article.published.order(published_at: :desc)
   end
 
   # GET /articles/1
   # GET /articles/1.json
   def show
+  end
+
+  # GET /articles/unpublished
+  # GET /articles/unpublished.json
+  def unpublished
+    @articles = Article.unpublished.order(published_at: :desc)
+
+    respond_to do |format|
+      format.html { render :index }
+      format.json { render json: @articles }
+    end
   end
 
   # GET /articles/new
